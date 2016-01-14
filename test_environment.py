@@ -22,11 +22,6 @@ def runtime():
 
 	# return Environments(data = env_data, timestamp = env_timestamp)
 
-def runtime_1():
-	EC = EnvironmentClassifier()
-	category_path = '/home/vionlabs/Documents/scene_classification/places_models/vgg16_places2/categories.txt'
-	EC.get_category_list(category_path)
-	print EC.scene_category_list
 
 if __name__ == "__main__":
 	runtime()
