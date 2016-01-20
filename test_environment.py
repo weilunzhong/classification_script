@@ -1,5 +1,5 @@
 from classification_revised import EnvironmentClassifier
-from vionmodels.research import Environments
+from vionmodels.research import Environments401
 
 
 def runtime():
@@ -20,7 +20,7 @@ def runtime():
 	print env_data
 	print env_timestamp
 
-	# return Environments(data = env_data, timestamp = env_timestamp)
+	# return Environments401(data = env_data, timestamp = env_timestamp)
 
 
 if __name__ == "__main__":
