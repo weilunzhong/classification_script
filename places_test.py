@@ -21,4 +21,4 @@ with tf.Session() as sesh:
     net.load('places205_caffemodel.npy', sesh)
     # Forward pass
     output = sesh.run(net.get_output())
-    print output
+    print output.shape
