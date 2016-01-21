@@ -61,7 +61,7 @@ while frame_index < frame_limit:
       m = max(result)
       index = result.argmax(axis=0)
       cv2.putText(frame, scene_category_list[index], (15,50), cv2.FONT_HERSHEY_SIMPLEX, 1, cv2.cv.CV_RGB(0,255,0))
-      cv2.imshow('frame', frame)
+      #cv2.imshow('frame', frame)
       print 'Category number:', index
       # print row[0]
       # scenelog.write(str(index) + os.linesep)
