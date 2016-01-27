@@ -1,7 +1,6 @@
 from classification_revised import EnvironmentClassifier
 from vionmodels.research import Environments401
 
-
 def runtime():
 	#path for all the files needed
 	MODEL_FILE = '/home/vionlabs/Documents/scene_classification/places_models/vgg16_places2/deploy.prototxt'
@@ -11,7 +10,6 @@ def runtime():
 	category_path = '/home/vionlabs/Documents/scene_classification/places_models/vgg16_places2/categories.txt'
 
 	EC = EnvironmentClassifier()
-
 	EC.get_category_list(category_path)
 	EC.deploy_network(MODEL_FILE, PRETRAINED, MEAN_FILE)
 	EC.video_reader(VIDEOPATH)
