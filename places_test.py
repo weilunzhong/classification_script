@@ -10,10 +10,6 @@ from vionaux.rnd import vidioids
 #print img.shape
 
 class EnvironmentClassifier(object):
-    def __init__(self, mode, batch_size=1):
-        self.model = model
-        self.mean = np.asarray(VggPlaces2.mean_vec)
-        self.batch_size = batch_size
         
     def batches(self):
         images = map(image_reader, path_list)
